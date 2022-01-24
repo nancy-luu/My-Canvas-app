@@ -1,0 +1,289 @@
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+body {
+  background-image:
+    url("https://media.istockphoto.com/photos/top-view-pencil-purple-and-paper-clip-on-wooden-background-picture-id1133496269?k=20&m=1133496269&s=170667a&w=0&h=UvUArq5hobidLpdg6yx1OmtTiZtikd4_-yIs_lydPbo=");
+  /* background-color: white; */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+}
+
+.palette{
+  display: flex; 
+}
+
+.canvas-container{
+  display: flex; 
+}
+
+.canvas {
+  background-color: white;
+  display: flex;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.nav-container{
+  margin-top: -20px;
+  padding-bottom: 10px;
+  text-align: center;
+  border: none;
+}
+
+.dropdown{
+  border-radius: 10px;
+  text-decoration: none;  
+  height: 45px;
+  border: none;
+  margin-left: 2px;
+	margin-right: 2px;
+  padding-top: 5px;
+}
+
+
+#BACKGROUND {
+  background-image: url("https://wallpapercave.com/wp/wp7632684.jpg");
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+#canvas1 {
+  background-image: url("https://coloringhome.com/coloring/nTB/GEL/nTBGELoEc.jpg");
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#canvas2 {
+  background-image: url("https://www.parksconservancy.org/sites/default/files/styles/basic/public/parks_coloring_book_2x1.jpg?itok=XGSIdunj");
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#canvas3 {
+  background-image: url("https://i.pinimg.com/736x/99/6a/7f/996a7f87b809a96ea18f515f99507e22.jpg");
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/* -------PALETTE---------------------------------- */
+.btn3d {
+	position: relative;
+	top: -6px;
+	border: 0;
+	transition: all 40ms linear;
+	margin-bottom: 10px;
+	margin-left: 2px;
+	margin-right: 2px;
+  border-radius: 50%;
+  text-decoration: none;  
+  height:40px;
+  width: 40px;
+  border: none;
+}
+
+.btn3d:active:focus,
+.btn3d:focus:hover,
+.btn3d:focus {
+	outline: medium none;
+}
+
+.btn3d:active,
+.btn3d.active {
+	top: 2px;
+}
+
+.btn3d.btn-white {
+	color: #666666;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255, 255, 255, 0.10) inset, 0 8px 0 0 #f5f5f5, 0 8px 8px 1px rgba(0, 0, 0, .2);
+	background-color: #fff;
+}
+
+.btn3d.btn-white:active,
+.btn3d.btn-white.active {
+	color: #666666;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, .1);
+	background-color: #fff;
+}
+
+.btn3d.btn-default {
+	color: #666666;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255, 255, 255, 0.10) inset, 0 8px 0 0 #BEBEBE, 0 8px 8px 1px rgba(0, 0, 0, .2);
+	background-color: #f9f9f9;
+}
+
+.btn3d.btn-default:active,
+.btn3d.btn-default.active {
+	color: #666666;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, .1);
+	background-color: #f9f9f9;
+}
+
+/* -----LINE------------------------------------------ */
+
+.linebtn3d {
+	position: relative;
+	top: -6px;
+	border: 0;
+	transition: all 40ms linear;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 2px;
+	margin-right: 2px;
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  border: none;
+}
+
+.linebtn3d:active:focus,
+.linebtn3d:focus:hover,
+.linebtn3d:focus {
+	outline: medium none;
+}
+
+.linebtn3d:active,
+.linebtn3d.active {
+	top: 2px;
+}
+
+.linebtn3d.btn-white {
+	color: #666666;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255, 255, 255, 0.10) inset, 0 8px 0 0 #f5f5f5, 0 8px 8px 1px rgba(0, 0, 0, .2);
+	background-color: #fff;
+}
+
+.linebtn3d.btn-white:active,
+.linebtn3d.btn-white.active {
+	color: #666666;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, .1);
+	background-color: #fff;
+}
+
+.linebtn3d.btn-default {
+	color: #666666;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255, 255, 255, 0.10) inset, 0 8px 0 0 #BEBEBE, 0 8px 8px 1px rgba(0, 0, 0, .2);
+	background-color: #f9f9f9;
+}
+
+.linebtn3d.btn-default:active,
+.linebtn3d.btn-default.active {
+	color: #666666;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, .1);
+	background-color: #f9f9f9;
+}
+
+/* -----NAV------------------------------------------ */
+
+.navbtn3d {
+	position: relative;
+	top: -6px;
+	border: 0;
+	transition: all 40ms linear;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 2px;
+	margin-right: 2px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+}
+
+.navbtn3d:active:focus,
+.navbtn3d:focus:hover,
+.navbtn3d:focus {
+	outline: medium none;
+}
+
+.navbtn3d:active,
+.navbtn3d.active {
+	top: 2px;
+}
+
+.navbtn3d.btn-white {
+	color: #666666;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255, 255, 255, 0.10) inset, 0 8px 0 0 #f5f5f5, 0 8px 8px 1px rgba(0, 0, 0, .2);
+	background-color: #fff;
+}
+
+.navbtn3d.btn-white:active,
+.navbtn3d.btn-white.active {
+	color: #666666;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, .1);
+	background-color: #fff;
+}
+
+.navbtn3d.btn-default {
+	color: #666666;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255, 255, 255, 0.10) inset, 0 8px 0 0 #BEBEBE, 0 8px 8px 1px rgba(0, 0, 0, .2);
+	background-color: #f9f9f9;
+}
+
+.navbtn3d.btn-default:active,
+.navbtn3d.btn-default.active {
+	color: #666666;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, .1);
+	background-color: #f9f9f9;
+}
+
+/* -------------------------------------------------------- */
+
+
+#BLACK{
+  background-color: black;
+  color: rgba(0, 0, 0, 0)
+}
+
+#RED{
+  background-color: red;
+  color: rgba(0, 0, 0, 0)
+}
+
+#ORANGE{
+  background-color: orange;
+  color: rgba(0, 0, 0, 0)
+}
+
+#YELLOW{
+  background-color: yellow;
+  color: rgba(0, 0, 0, 0)
+}
+
+#GREEN{
+  background-color: green;
+  color: rgba(0, 0, 0, 0)
+}
+
+#BLUE{
+  background-color: blue;
+  color: rgba(0, 0, 0, 0)
+}
+
+#PURPLE{
+  background-color: purple;
+  color: rgba(0, 0, 0, 0)
+}
+
+#PINK{
+  background-color: pink;
+  color: rgba(0, 0, 0, 0)
+}
+
+#saddlebrown{
+  background-color: saddlebrown;
+  color: rgba(0, 0, 0, 0)
+}
